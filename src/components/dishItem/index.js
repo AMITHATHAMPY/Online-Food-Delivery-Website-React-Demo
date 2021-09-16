@@ -77,7 +77,7 @@ function DishItems(props) {
                 <Button
                   variant="contained"
                   elevation={0}
-                  className={classes.buttonGroup}
+                  className={classes.addIconButton}
                   onClick={() => handleSetToCart(true, dish.dish_id)}
                 >
                   <AddIcon />
@@ -85,14 +85,14 @@ function DishItems(props) {
                 <Button
                   elevation={0}
                   variant="contained"
-                  className={classes.buttonGroup}
+                  className={classes.button}
                 >
                   {dish.selectedCount}
                 </Button>
                 <Button
                   elevation={0}
                   variant="contained"
-                  className={classes.buttonGroup}
+                  className={classes.removeIconButton}
                   onClick={
                     dish.selectedCount
                       ? () => handleSetToCart(false, dish.dish_id)

@@ -33,8 +33,19 @@ const styles = makeStyles((theme) => ({
     textAlign: "right",
     paddingRight: theme.spacing(0.2),
   },
-  buttonGroup: {
-    borderRadius: "100px",
+  addIconButton: {
+    borderTopLeftRadius: "30px",
+    borderBottomLeftRadius: "30px",
+    height: "30px",
+    padding: 0,
+  },
+  removeIconButton: {
+    borderTopRightRadius: "30px",
+    borderBottomRightRadius: "30px",
+    height: "30px",
+    padding: 0,
+  },
+  button: {
     height: "30px",
     padding: 0,
   },
