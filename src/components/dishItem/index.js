@@ -77,7 +77,7 @@ function DishItems(props) {
                 <Button
                   variant="contained"
                   elevation={0}
-                  className={classes.addIconButton}
+                  classes={{ root: classes.addIconButton }}
                   onClick={() => handleSetToCart(true, dish.dish_id)}
                 >
                   <AddIcon />
