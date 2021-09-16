@@ -9,7 +9,7 @@ const styles = makeStyles((theme) => ({
     minHeight: "30px",
   },
   appBar: {
-    padding: 0,
+    padding: "0px",
     marginTop: "-10px",
     height: "35px",
     boxShadow: "0 8px 4px -4px #EEEEEE",

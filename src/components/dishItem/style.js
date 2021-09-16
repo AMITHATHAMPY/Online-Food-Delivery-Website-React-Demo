@@ -22,7 +22,7 @@ const styles = makeStyles((theme) => ({
   mainGrid: {
     padding: theme.spacing(3, 8, 2, 8),
     "@media screen and (max-width: 480px)": {
-      padding: 0,
+      padding: "0px",
     },
   },
   img: {
@@ -37,17 +37,17 @@ const styles = makeStyles((theme) => ({
     borderTopLeftRadius: "30px",
     borderBottomLeftRadius: "30px",
     height: "30px",
-    padding: 0,
+    padding: "0px",
   },
   removeIconButton: {
     borderTopRightRadius: "30px",
     borderBottomRightRadius: "30px",
     height: "30px",
-    padding: 0,
+    padding: "0px",
   },
   button: {
     height: "30px",
-    padding: 0,
+    padding: "0px",
   },
   dishName: {
     fontWeight: "bold",
@@ -77,8 +77,8 @@ const styles = makeStyles((theme) => ({
   },
   iconButton: {
     padding: theme.spacing(0),
-    width: 10,
-    height: 10,
+    width: "10px",
+    height: "10px",
   },
   buttonGrid: {
     paddingLeft: theme.spacing(3),
