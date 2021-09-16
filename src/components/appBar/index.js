@@ -54,7 +54,7 @@ function AppShell(props) {
               <IconButton
                 edge="start"
                 className={classes.menuButton}
-                color="inherit"
+                color="primary"
                 aria-label="open drawer"
                 onClick={handleBack}
               >

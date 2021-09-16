@@ -36,18 +36,17 @@ const styles = makeStyles((theme) => ({
   addIconButton: {
     borderTopLeftRadius: "30px !important",
     borderBottomLeftRadius: "30px !important",
-    height: "30px",
-    padding: "0px",
+    padding: "0px !important",
+    border: "none !important",
   },
   removeIconButton: {
     borderTopRightRadius: "30px !important",
     borderBottomRightRadius: "30px !important",
-    height: "30px",
-    padding: "0px",
+    padding: "0px !important",
   },
   button: {
-    height: "30px",
-    padding: "0px",
+    padding: "0px !important",
+    border: "none !important",
   },
   dishName: {
     fontWeight: "bold",
@@ -82,6 +81,7 @@ const styles = makeStyles((theme) => ({
   },
   buttonGrid: {
     paddingLeft: theme.spacing(3),
+    height: "30px !important",
   },
   customizationText: {
     fontWeight: "medium",
