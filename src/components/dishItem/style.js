@@ -33,13 +33,13 @@ const styles = makeStyles((theme) => ({
     textAlign: "right",
     paddingRight: theme.spacing(0.2),
   },
-  addIconButton: {
+  removeIconButton: {
     borderTopLeftRadius: "30px !important",
     borderBottomLeftRadius: "30px !important",
     padding: "0px !important",
     border: "none !important",
   },
-  removeIconButton: {
+  addIconButton: {
     borderTopRightRadius: "30px !important",
     borderBottomRightRadius: "30px !important",
     padding: "0px !important",
@@ -76,6 +76,7 @@ const styles = makeStyles((theme) => ({
   },
   iconButton: {
     padding: theme.spacing(0),
+    paddingLeft: theme.spacing(1),
     width: "10px",
     height: "10px",
   },

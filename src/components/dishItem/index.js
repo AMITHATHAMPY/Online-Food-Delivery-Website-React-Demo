@@ -75,21 +75,6 @@ function DishItems(props) {
                 disabled={!dish.dish_Availability}
               >
                 <Button
-                  variant="contained"
-                  elevation={0}
-                  classes={{ root: classes.addIconButton }}
-                  onClick={() => handleSetToCart(true, dish.dish_id)}
-                >
-                  <AddIcon />
-                </Button>
-                <Button
-                  elevation={0}
-                  variant="contained"
-                  className={classes.button}
-                >
-                  {dish.selectedCount}
-                </Button>
-                <Button
                   elevation={0}
                   variant="contained"
                   className={classes.removeIconButton}
@@ -100,6 +85,21 @@ function DishItems(props) {
                   }
                 >
                   <RemoveIcon />
+                </Button>
+                <Button
+                  elevation={0}
+                  variant="contained"
+                  className={classes.button}
+                >
+                  {dish.selectedCount}
+                </Button>
+                <Button
+                  variant="contained"
+                  elevation={0}
+                  classes={{ root: classes.addIconButton }}
+                  onClick={() => handleSetToCart(true, dish.dish_id)}
+                >
+                  <AddIcon />
                 </Button>
               </ButtonGroup>
               {dish.addonCat.length && dish.dish_Availability ? (
