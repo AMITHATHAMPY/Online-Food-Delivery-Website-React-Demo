@@ -13,7 +13,7 @@ const styles = makeStyles((theme) => ({
     },
   },
   gridContainer: {
-    marginTop: theme.spacing(0.5),
+    marginTop: "4px !important",
   },
   title: {
     fontWeight: "bold",
