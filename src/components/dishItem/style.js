@@ -34,14 +34,14 @@ const styles = makeStyles((theme) => ({
     paddingRight: theme.spacing(0.2),
   },
   addIconButton: {
-    borderTopLeftRadius: "30px",
-    borderBottomLeftRadius: "30px",
+    borderTopLeftRadius: "30px !important",
+    borderBottomLeftRadius: "30px !important",
     height: "30px",
     padding: "0px",
   },
   removeIconButton: {
-    borderTopRightRadius: "30px",
-    borderBottomRightRadius: "30px",
+    borderTopRightRadius: "30px !important",
+    borderBottomRightRadius: "30px !important",
     height: "30px",
     padding: "0px",
   },

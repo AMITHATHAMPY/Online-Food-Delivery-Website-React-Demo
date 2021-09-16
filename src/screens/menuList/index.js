@@ -67,9 +67,7 @@ function MenuList(props) {
           variant="scrollable"
           scrollButtons="auto"
           selected={true}
-          classes={{
-            root: classes.tabs,
-          }}
+          className={classes.tabs}
         >
           {props.selectedRestuarant?.table_menu_list?.map((table, i) => {
             return (

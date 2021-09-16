@@ -4,9 +4,9 @@ const styles = makeStyles((theme) => ({
     width: "100%",
   },
   tabs: {
-    textTransform: "capitalize",
+    textTransform: "capitalize !important",
     textAlign: "left",
-    minHeight: "30px",
+    minHeight: "30px !important",
   },
   appBar: {
     padding: "0px",
